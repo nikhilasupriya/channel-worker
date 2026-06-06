@@ -32,7 +32,7 @@ dependencies {
 	// Base dependencies for every service
 
 	implementation libs.spring.web
-	implementation libs.spring.validation
+//	implementation libs.spring.validation
 
 	compileOnly libs.lombok
 	annotationProcessor libs.lombok
@@ -54,7 +54,8 @@ dependencies {
 
 	// implementation libs.spring.redis
 
-	// implementation libs.spring.kafka
+	 implementation libs.spring.kafka
+	 implementation libs.spring.actuator
 
 	// implementation libs.spring.cloud.stream
 	// implementation libs.spring.cloud.stream.kafka
